@@ -9,4 +9,6 @@ run `npm install` in the root dir
 run `node main.js -h` for a list of available commands
 
 # create binary
-run `npm run build` to create a binary (currently only tested on windows
+run `npm run build-windows` to create a binary for windows
+run `npm run build-linux` to create a binary for linux
+run `npm run build-osx` to create a binary for osx
