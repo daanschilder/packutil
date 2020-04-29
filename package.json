@@ -1,6 +1,6 @@
 {
   "name": "pack-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a utility for packing and unpacking electrified 3 firmware-packages",
   "main": "main.js",
   "scripts": {

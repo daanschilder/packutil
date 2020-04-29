@@ -60,9 +60,6 @@ function list_contents(fname){
         console.log(hexarray.slice(32, 63))
         console.log(hexarray)
 
-
-        console.log(' the length = ' + length)
-
         entry.imageName = entrycontext
         entry.imageLength = bytearray_readInt32(hexarray, 60)
         entry.imageData = buffer.slice(offset, offset + length)
