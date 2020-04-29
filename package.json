@@ -7,6 +7,7 @@
     "start": "node main.js",
     "build-windows": "nexe -i *.js -r node_modules/ -o packutil.exe",
     "build-linux": "nexe -i *.js -r node_modules/ -o packutil",
+    "build-osx": "nexe -i *.js -r node_modules/ -o packutil.app",
     "test": "test"
   },
   "keywords": [
