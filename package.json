@@ -1,0 +1,24 @@
+{
+  "name": "pack-util",
+  "version": "1.0.0",
+  "description": "a utility for packing and unpacking electrified 3 firmware-packages",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "build-windows": "nexe -i *.js -r node_modules/ -o packutil.exe",
+    "build-linux": "nexe -i *.js -r node_modules/ -o packutil",
+    "test": "test"
+  },
+  "keywords": [
+    "pack",
+    "electrified",
+    "vanmoof"
+  ],
+  "author": "Daan Schilder",
+  "license": "MIT",
+  "dependencies": {
+    "nexe": "^3.3.2",
+    "yarg": "^1.0.8",
+    "yargs": "^15.3.1"
+  }
+}
